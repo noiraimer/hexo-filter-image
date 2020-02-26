@@ -5,7 +5,7 @@ const _ = require('lodash');
 const cheerio = require('cheerio');
 
 // 项目访问上下文路径
-var blogRoot = hexo.config.root || '/';
+var blogRoot = hexo.config.CDN || '/';
 blogRoot = blogRoot.endsWith("/") ? blogRoot : blogRoot + '/';
 
 /** 默认配置 */
